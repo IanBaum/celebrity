@@ -3,7 +3,7 @@ $(document).ready(function(){
     event.preventDefault();
   var age = parseInt($("#userAge").val());
   var gender = $("input:radio[name=gender]:checked").val();
-  
+  var food = $("userFood").val();
   });
 
 
