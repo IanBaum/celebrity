@@ -13,11 +13,11 @@
       <div class="row">
         <div class="col-xs-8">
           <form id="userInfo">
-            <div class="form-group">
-              <label for="userAge">
+            <div id="ageDiv" class="form-group">
+              <label class="control-label" for="userAge">
                 Enter your age:
               </label>
-                <input id="userAge" class="form-control" type="text">
+                <input id="userAge" class="form-control" type="number">
             </div>
             <div class="form-group">
               <label>Select your gender:</label>
@@ -36,11 +36,11 @@
             </div>
             <label for="userFood">Select your favorite food:
             <select class="form-control" id="userFood">
-              <option>Apples</option>
-              <option>Bananas</option>
-              <option>Lasagna</option>
-              <option>Tortellini</option>
-              <option>Watermelon</option>
+              <option value="1">Apples</option>
+              <option value="2">Bananas</option>
+              <option value="3">Lasagna</option>
+              <option value="4">Tortellini</option>
+              <option value="5">Watermelon</option>
             </select>
             <button class="btn btn-primary" type="submit">Submit</button>
           </form>
